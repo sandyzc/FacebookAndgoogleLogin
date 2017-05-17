@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "302657528313",
+    "project_id": "sociallogin-4b1e5"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302657528313:android:17e8faf5337fa7e2",
+        "android_client_info": {
+          "package_name": "chinna.sandyz.com.facebookandgooglelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302657528313-bd0963039cbjab011p6r2jt38nabdjrt.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "302657528313-lf0tjn5eq6fqi300b5f57q03qg78b6cm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "chinna.sandyz.com.facebookandgooglelogin",
+            "certificate_hash": "3e5f4b204d4f35a98abe81c3f820c47a17502225"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRkLQ4jUaXe4NtyQLk1eNtwUPcJkgmf_E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Name: "
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        />
+    <TextView
+        android:id="@+id/last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name: "
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        />
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id: "
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        />
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender: "
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        />
+    <TextView
+        android:id="@+id/profil_pic_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile Pic Path: "
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        />
+
+
+
+</LinearLayout>
